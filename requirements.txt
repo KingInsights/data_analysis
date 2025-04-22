@@ -1,5 +1,6 @@
 streamlit==1.12.0
-matplotlib==3.5.0  # Version 3.5.0 or higher works well with Python 3.12
+matplotlib==3.6.0  # Update to a version that supports Python 3.12
 pandas==1.5.3
-numpy==1.23.2  # Ensure this version works with the current dependencies
+numpy==1.24.0  # This version is compatible with Python 3.12
+
 
