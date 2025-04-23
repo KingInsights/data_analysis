@@ -854,7 +854,7 @@ if st.button("Show Sentiment Distribution by Product"):
 
     # Plot the distribution
     plt.figure(figsize=(12, 6))
-    plt.bar(sentiment_distribution.index, sentiment_distribution.values, color="coolwarm")
+    plt.barh(avg_sentiment_manufacturer.index, avg_sentiment_manufacturer.values, color="#3498DB")  # solid blue
     plt.title("Distribution of Products by Sentiment Band", fontsize=14, fontweight="bold")
     plt.xlabel("Sentiment Score Range")
     plt.ylabel("Number of Products")
